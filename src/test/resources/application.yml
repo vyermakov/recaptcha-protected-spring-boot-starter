@@ -1,0 +1,6 @@
+recaptcha:
+  enabled: true
+  validation:
+    request-param-name: recaptcha
+    site-key: test-site-key
+    secret-key: test-secret-key
