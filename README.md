@@ -163,3 +163,7 @@ Contributions are welcome! Please submit issues and pull requests.
 ## License
 
 This project is licensed under the MIT License.
+
+## Credits
+
+This project uses and is inspired by the [recaptcha-spring-boot-starter](https://github.com/mkopylec/recaptcha-spring-boot-starter) library by Michal Kopylec. Thanks to the original authors for their excellent work on reCAPTCHA integration for Spring Boot.
