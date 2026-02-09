@@ -3,7 +3,7 @@
     {
       "name": "recaptcha",
       "type": "com.jeevision.security.recaptcha.RecaptchaProtectedProperties",
-      "description": "Configuration properties for reCAPTCHA protection."
+      "description": "Configuration properties for reCAPTCHA validation."
     }
   ],
   "properties": [
@@ -22,13 +22,12 @@
     {
       "name": "recaptcha.validation.site-key",
       "type": "java.lang.String",
-      "description": "Your Google reCAPTCHA site key. Obtain from Google reCAPTCHA Admin Console."
+      "description": "The Google reCAPTCHA site key. Obtain from https://www.google.com/recaptcha/admin."
     },
     {
       "name": "recaptcha.validation.secret-key",
       "type": "java.lang.String",
-      "description": "Your Google reCAPTCHA secret key. Obtain from Google reCAPTCHA Admin Console."
+      "description": "The Google reCAPTCHA secret key. Obtain from https://www.google.com/recaptcha/admin."
     }
-  ],
-  "hints": []
+  ]
 }
